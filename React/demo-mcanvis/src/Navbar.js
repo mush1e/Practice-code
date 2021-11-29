@@ -1,7 +1,6 @@
 import React from "react";
 
-function Navbar() {
-    
-}
+let Navbar = () =>
+    <h1>Hello world</h1>
 
 export default Navbar;
