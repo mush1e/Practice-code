@@ -1,16 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App'
 
-// var MainContent = () => 
-//     <div>
-//         <h1>I'm building a react app</h1>
-//     </div>
 
-// ReactDOM.render(<div>
-//                     <MainContent/>
-//                 </div>, document.getElementById("root") )
-
-const h1 = document.createElement("h1")
-h1.textContent = "This is an imperative way to program"
-h1.className = "header"
-document.getElementById("root").append(h1)
+const element = <h1>This is jsx</h1>
+console.log(element)
+ReactDOM.render(<App/> , document.getElementById("root"))
