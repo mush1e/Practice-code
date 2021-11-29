@@ -1,5 +1,11 @@
 import React from "react";
+import Navbar from './Navbar'
 
-var App = () => <h1>Hello world</h1>
+let App = () => 
+    <div>
+        <Navbar/>
+        {/* <Main/> */}
+        {/* <Footer/> */}
+    </div>
 
 export default App;
