@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+)
 
 func main() {
-	fmt.Println("Hello world!");
+	fmt.Println("a number form 1-100", rand.Intn(100))
 }
